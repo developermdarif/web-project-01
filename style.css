@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+     
+    padding: 0;
+}
+
+
+   /* lab-01 */
+.parent{
+    /* padding: 25px; */
+    background-color: gray;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+
+    height: 500px;
+    align-items: center;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.child{
+    padding: 20px;
+    background-color: antiquewhite;
+    font-size: 24px;
+    margin: 15px;
+    /* display: inline; */
+    /* width: 400px; */
+}
+
+
+
+
+
+/* Navbar */
+#Navbar nav{
+    display: flex;
+    gap: 30px;
+}
+#Navbar nav ul{
+    display: flex;
+    gap: 15px;
+}
+#Navbar nav ul li{
+    list-style: none;
+}
+#Navbar nav ul li a{
+    text-decoration: none;
+}
